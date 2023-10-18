@@ -1,0 +1,6 @@
+/* theme breakpoints min-width */
+:root {
+  --tablet: var(--sm-breakpoint);
+  --laptop: var(--lg-breakpoint);
+  --desktop: var(--xl-breakpoint);
+}

@@ -1,9 +1,31 @@
-/* Your CSS styles here! */
+@import "./css/index.css";
 
-blockquote {
-  background: #eee;
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: Inter var, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
 }
 
-* {
-  color: red;
+body {
+  background: #fafafa;
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+::selection {
+  background: #f878ff;
 }
