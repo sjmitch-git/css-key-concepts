@@ -1,2 +1,9 @@
 /* Your CSS styles here! */
 
+blockquote {
+  background: #eee;
+}
+
+* {
+  color: red;
+}
