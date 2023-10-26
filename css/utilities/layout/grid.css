@@ -1,0 +1,23 @@
+.grid-template-columns {
+  grid-template-columns: auto;
+}
+
+.grid-template-rows {
+  grid-template-rows: auto;
+}
+
+.grid-auto-flow-row {
+  grid-auto-flow: row;
+}
+
+.grid-auto-flow-column {
+  grid-auto-flow: column;
+}
+
+.grid-auto-flow-row-dense {
+  grid-auto-flow: row dense;
+}
+
+.grid-auto-flow-column-dense {
+  grid-auto-flow: column dense;
+}

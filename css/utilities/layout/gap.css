@@ -1,0 +1,22 @@
+.gap-none {
+  gap: 0;
+}
+
+.gap-xs {
+  gap: var(--size-000);
+}
+
+.gap-sm {
+  gap: var(--size-00);
+}
+
+.gap {
+  gap: var(--size-0);
+}
+.gap-lg {
+  gap: var(--size-1);
+}
+
+.gap-xl {
+  gap: var(--size-2);
+}

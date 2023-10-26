@@ -1,0 +1,10 @@
+/* TEXT DECORATION */
+:root {
+  --decoration-none: none;
+  --decoration-underline: underline;
+  --decoration-dotted: underline dotted;
+  --decoration-dashed: underline dashed;
+  --decoration-overline: overline;
+  --decoration-line-through: line-through;
+  --decoration-underline-overline: underline overline;
+}

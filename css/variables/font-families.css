@@ -13,3 +13,11 @@
   --impact-font: "Impact", sans-serif;
   --arial-black-font: "Arial Black", sans-serif;
 }
+
+/* font-family groups */
+:root {
+  --sans-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, "Helvetica Neue", Arial, Noto Sans, sans-serif;
+  --serif-font: Georgia, Cambria, "Times New Roman", Times, serif;
+  --mono-font: Consolas, Menlo, Monaco, "Liberation Mono", monospace;
+}

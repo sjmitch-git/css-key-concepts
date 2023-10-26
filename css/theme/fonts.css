@@ -1,7 +1,0 @@
-/* theme fonts */
-:root {
-  --font-mono: var(--courier-font);
-  --font-serif: var(--times-font);
-  --font-sans-serif: var(--verdana-font);
-  --font-heading: var(--arial-black-font);
-}

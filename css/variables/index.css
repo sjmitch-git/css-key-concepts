@@ -1,4 +1,8 @@
+@import "./boxshadow.css";
 @import "./breakpoints.css";
 @import "./colors.css";
 @import "./font-families.css";
+@import "./opacity.css";
+@import "./sizes.css";
 @import "./spacing.css";
+@import "./typography.css";

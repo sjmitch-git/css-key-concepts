@@ -1,0 +1,28 @@
+.alert {
+  background-color: var(--alert-bg);
+  padding: var(--alert-padding);
+  margin: var(--alert-margin);
+  border: var(--alert-border);
+  border-radius: var(--alert-radius);
+  box-shadow: var(--box-shadow-md);
+
+  &.info {
+    background-color: var(--info-color-light);
+  }
+  &.success {
+    background-color: var(--success-color-light);
+  }
+  &.warning {
+    background-color: var(--warning-color);
+  }
+  &.danger {
+    background-color: var(--danger-color);
+  }
+
+  & .alert-title {
+    color: var(--alert-title);
+  }
+  & p {
+    max-width: 65ch;
+  }
+}

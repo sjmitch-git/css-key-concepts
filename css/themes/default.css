@@ -1,0 +1,113 @@
+/* DEFAULT THEME variables */
+
+/* COLOURS */
+:root {
+  --primary-color: var(--purple);
+  --secondary-color: var(--deep-purple);
+  --tertiary-color: var(--light-purple);
+
+  --dark-color: var(--darkest-grey);
+  --light-color: var(--lightest-grey);
+
+  --info-color: var(--blue);
+  --info-color-light: var(--light-blue);
+  --info-color-dark: var(--deep-blue);
+
+  --success-color: var(--green);
+  --success-color-light: var(--light-green);
+  --success-color-dark: var(--deep-green);
+
+  --warning-color: var(--orange);
+  --warning-color-light: var(--light-orange);
+  --warning-color-dark: var(--deep-orange);
+
+  --danger-color: var(--red);
+  --danger-color-light: var(--light-red);
+  --danger-color-dark: var(--deep-red);
+
+  --backdrop-color: var(--opaque-dark);
+  --shim-color: var(--opaque);
+  --shim-light-color: var(--opaque-light);
+  --disabled-color: var(--darker-grey);
+  --accent-color: var(--yellow);
+}
+
+/* FONT FAMILIES */
+:root {
+  --font-mono: var(--mono-font);
+  --font-serif: var(--serif-font);
+  --font-sans: var(--sans-font);
+  --font-block: var(--sans-font);
+}
+
+/* LINKS */
+:root {
+  --link-color: currentColor;
+  --link-hover-color: var(--secondary-color);
+  --link-visited-color: var(--tertiary-color);
+  --link-active-color: var(--info-color);
+  --link-focus-color: var(--tertiary-color);
+
+  --link-decoration: var(--decoration-underline) var(--primary-color);
+  --link-decoration-hover: var(--decoration-none);
+}
+
+/* HEADINGS */
+:root {
+  --heading-1-size: var(--size-6);
+  --heading-2-size: var(--size-5);
+  --heading-3-size: var(--size-4);
+  --heading-4-size: var(--size-3);
+  --heading-5-size: var(--size-2);
+  --heading-6-size: var(--size-1);
+
+  --display-1-size: var(--size-10);
+  --display-2-size: var(--size-9);
+  --display-3-size: var(--size-8);
+  --display-4-size: var(--size-7);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --display-1-size: var(--size-7);
+    --display-2-size: var(--size-6);
+    --display-3-size: var(--size-5);
+    --display-4-size: var(--size-4);
+  }
+}
+
+/* BREAKPOINTSs -
+   TO DO: variables don't work in media queries! 
+*/
+:root {
+  --tablet: var(--sm-breakpoint);
+  --laptop: var(--lg-breakpoint);
+  --desktop: var(--xl-breakpoint);
+}
+
+html {
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--black);
+    color: var(--white);
+  }
+}
+
+/* COMPONENTS */
+:root {
+  --alert-bg: var(--lightest-grey);
+  --alert-title: currentColor;
+  --alert-padding: var(--spacing-2) var(--spacing-4);
+  --alert-margin: var(--spacing-4) var(--spacing-12);
+  --alert-border: thin solid;
+  --alert-radius: 0.25em;
+}

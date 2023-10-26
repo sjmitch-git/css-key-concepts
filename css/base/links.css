@@ -1,0 +1,24 @@
+a {
+  color: var(--link-color);
+  text-decoration: var(--link-decoration);
+  text-underline-offset: 0.15em;
+  text-decoration-skip-ink: auto;
+}
+
+a:hover {
+  opacity: var(--opacity-6);
+  text-decoration: var(--link-hover-decoration);
+}
+
+a:visited {
+  color: var(--link-visited-color);
+}
+
+a:active {
+  color: var(--link-active-color);
+}
+
+a:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--success-color-light);
+}

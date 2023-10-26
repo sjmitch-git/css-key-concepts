@@ -1,129 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Returners Surgery: Home</title>
+    <!-- Load normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Load styles -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-	<head>
-    	<meta charset="UTF-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>Tech Returners Surgery: Home</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-			crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="./styles.css" />
-	</head>
+  <body>
+    <header class="bg-white">
+      <section class="p-4 flex justify-between items-center">
+        <a class="h1 brand" href="#">Tech Returners Surgery</a>
+        <a href="tel:03330509138">0333 050 9138</a>
+      </section> 
+    </header>
 
-	<body>
-		<header>
-			<a href="#">Tech Returners Surgery</a>
-			<a href="tel:03330509138">0333 050 9138</a>
-		</header>
+    <nav class="bg-warning-light sticky top z-10 p-4 flex justify-between">
+      <ul class="flex gap">
+        <li><a href="#" class="brand">Home</a></li>
+        <li><a href="#" class="brand">Services</a></li>
+        <li><a href="#" class="brand">Team</a></li>
+        <li><a href="#" class="brand">Patient Information</a></li>
+        <li><a href="#" class="brand">Well-being Centre</a></li>
+      </ul>
+      <form class="mb-0">
+        <label for="site-search">Search...</label>
+        <input type="search" id="site-search" name="search" aria-label="Search through site content" />
+        <button>Search</button>
+      </form>
+    </nav>
 
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Patient Information</a></li>
-				<li><a href="#">Well-being Centre</a></li>
-			</ul>
-		</nav>
+    <main class="container pb-12">
+      <blockquote class="alert info">
+        <h3 class="alert-title">COVID Restriction Update</h3>
 
-		<label for="site-search">Search...</label>
-		<input type="search" id="site-search" name="search" aria-label="Search through site content">
-		<button>Search</button>
+        <p>
+          Throughout the pandemic we have strove to make the surgery as safe as
+          possible for all our patients and staff, we will continue to do so.
+        </p>
 
-		<blockquote>
-			<h3><em>COVID Restriction Update</em></h3>
+        <p>
+          From the
+          <strong
+            ><time datetime="2021-07-19">19th July 2021</time> nothing will
+            change at the Surgery</strong
+          >
+          Patients will <strong>still need</strong> to wear a mask, socially
+          distance and use hand sanitiser in the surgery and staff will continue
+          to wear PPE.
+        </p>
 
-			<p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and
-				staff, we will continue to do so.</p>
+        <p>
+          If you arrive without a mask and are not exempt, you will be asked to
+          leave.
+        </p>
+      </blockquote>
 
-			<p>From the <strong><time datetime="2021-07-19">19th July 2021</time> nothing will change at the Surgery</strong> Patients will <strong>still
-					need</strong> to
-				wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to
-				wear PPE.
-			</p>
+      <section class="relative">
+        <h1 class="display-2 opacity-5">
+          Welcome to the Tech Returners Surgery!
+        </h1>
+      
+        <img src="./surgery.png" alt="A description of the image" />
+      
+        <address>
+          The Tech Returners Surgery,<br />
+          115 Mancunian Way,<br />
+          Manchester,<br />
+          M20 3PX
+        </address>
+      </section>
 
-			<p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
-		</blockquote>
+      <section>
+        <h2>How to use Ask My Doc?</h2>
 
+        <video controls width="250">
+          <source src="#" type="video/webm" />
+          <source src="#" type="video/mp4" />
 
-		<section>
-			<h1>Welcome to the Tech Returners Surgery!</h1>
+          <track
+            kind="captions"
+            srclang="en"
+            src="./ask_my_doc_transcript.vtt"
+            default
+          />
 
-			<img src="./surgery.png" alt="A description of the image">
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+      </section>
 
-			<address> The Tech Returners Surgery,<br>
-				115 Mancunian Way,<br>
-				Manchester,<br>
-				M20 3PX
-			</address>
-		</section>
+      <section>
+        <h2>Need advice or have some feedback for us?</h2>
 
-		<section>
-			<h2>How to use Ask My Doc?</h2>
+        <form>
+          <fieldset>
+            <legend>
+              Send us a message by filling out the form below and one of our
+              Receptionists will be in touch:
+            </legend>
 
-			<video controls width="250">
-				<source src="#" type="video/webm">
-				<source src="#" type="video/mp4">
+            <p>Are you completing this form on behalf of:</p>
 
-				<track kind="captions" srclang="en" src="./ask_my_doc_transcript.vtt" default>
+            <label for="self">Yourself </label>
+            <input type="checkbox" id="self" name="self" />
 
-				Sorry, your browser doesn't support embedded videos.
-			</video>
-		</section>
+            <label for="another">Someone else </label>
+            <input type="checkbox" id="another" name="another" />
 
+            <div>
+              <label for="fname">First Name </label>
+              <input type="text" id="fname" name="fname" required />
+            </div>
 
-		<section>
-			<h2>Need advice or have some feedback for us?</h2>
+            <div>
+              <label for="lname">Last Name </label>
+              <input type="text" id="lname" name="lname" required />
+            </div>
 
-			<form>
-				<fieldset>
-					<legend>Send us a message by filling out the form below and one of our Receptionists will be in touch:
-					</legend>
+            <div>
+              <label for="dob">Date of Birth </label>
+              <input type="date" id="dob" name="dob" required />
+            </div>
 
-					<p>Are you completing this form on behalf of: </p>
+            <div>
+              <label for="telephone">Telephone Number: </label>
+              <input type="tel" id="telephone" name="telephone" required />
+            </div>
 
-					<label for="self">Yourself </label>
-					<input type="checkbox" id="self" name="self">
+            <div>
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="email" required />
+            </div>
 
-					<label for="another">Someone else </label>
-					<input type="checkbox" id="another" name="another">
+            <div>
+              <label for="message">Your query or message: </label>
+              <input type="text" id="message" name="message" required />
+            </div>
 
-
-					<div>
-						<label for="fname">First Name </label>
-						<input type="text" id="fname" name="fname" required>
-					</div>
-
-					<div>
-						<label for="lname">Last Name </label>
-						<input type="text" id="lname" name="lname" required>
-					</div>
-
-					<div>
-						<label for="dob">Date of Birth </label>
-						<input type="date" id="dob" name="dob" required>
-					</div>
-
-					<div>
-						<label for="telephone">Telephone Number: </label>
-						<input type="tel" id="telephone" name="telephone" required>
-					</div>
-
-					<div>
-						<label for="email">Email: </label>
-						<input type="email" id="email" name="email" required>
-					</div>
-
-					<div>
-						<label for="message">Your query or message: </label>
-						<input type="text" id="message" name="message" required>
-					</div>
-
-					<input type="submit" value="Submit">
-				</fieldset>
-			</form>
-		</section>
-	</body>
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="bg-white">
+      <a href="#">Tech Returners Surgery</a>
+      <a href="tel:03330509138">0333 050 9138</a>
+    </footer>
+  </body>
 </html>

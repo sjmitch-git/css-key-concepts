@@ -1,5 +1,17 @@
+/* RESET */
+@import "./reset.css";
+
 /* VARIABLES */
 @import "./variables/index.css";
 
-/* THEME */
-@import "./theme/index.css";
+/* DEFAULT THEME */
+@import "./themes/default.css";
+
+/* BASE */
+@import "./base/index.css";
+
+/* COMPONENTS */
+@import "./components/index.css";
+
+/* UTILITIES */
+@import "./utilities/index.css";
