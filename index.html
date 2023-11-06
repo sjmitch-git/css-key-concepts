@@ -18,67 +18,125 @@
   </head>
 
   <body>
-    <header class="bg-white">
-      <section class="p-4 flex justify-between items-center">
-        <a class="h1 brand" href="#">Tech Returners Surgery</a>
-        <a href="tel:03330509138">0333 050 9138</a>
-      </section> 
+    <header class="header">
+      <a class="brand" href="#">Tech Returners Surgery</a>
+      <a
+        href="tel:03330509138"
+        class="text-light fixed bottom left ml-4 mb-4 z-10 aspect-circle bg-secondary"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="icon xxl p-2"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+            clip-rule="evenodd"
+          />
+        </svg>
+
+        <span class="sr-only">0333 050 9138</span>
+      </a>
     </header>
 
-    <nav class="bg-warning-light sticky top z-10 p-4 flex justify-between">
-      <ul class="flex gap">
-        <li><a href="#" class="brand">Home</a></li>
-        <li><a href="#" class="brand">Services</a></li>
-        <li><a href="#" class="brand">Team</a></li>
-        <li><a href="#" class="brand">Patient Information</a></li>
-        <li><a href="#" class="brand">Well-being Centre</a></li>
+    <nav class="navbar">
+      <ul class="menu">
+        <li>
+          <a href="#" class="brand">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon"
+            >
+              <path
+                d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"
+              />
+              <path
+                d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"
+              />
+            </svg>
+            <span class="sr-only">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="brand">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.828 2.25c-.916 0-1.699.663-1.85 1.567l-.091.549a.798.798 0 01-.517.608 7.45 7.45 0 00-.478.198.798.798 0 01-.796-.064l-.453-.324a1.875 1.875 0 00-2.416.2l-.243.243a1.875 1.875 0 00-.2 2.416l.324.453a.798.798 0 01.064.796 7.448 7.448 0 00-.198.478.798.798 0 01-.608.517l-.55.092a1.875 1.875 0 00-1.566 1.849v.344c0 .916.663 1.699 1.567 1.85l.549.091c.281.047.508.25.608.517.06.162.127.321.198.478a.798.798 0 01-.064.796l-.324.453a1.875 1.875 0 00.2 2.416l.243.243c.648.648 1.67.733 2.416.2l.453-.324a.798.798 0 01.796-.064c.157.071.316.137.478.198.267.1.47.327.517.608l.092.55c.15.903.932 1.566 1.849 1.566h.344c.916 0 1.699-.663 1.85-1.567l.091-.549a.798.798 0 01.517-.608 7.52 7.52 0 00.478-.198.798.798 0 01.796.064l.453.324a1.875 1.875 0 002.416-.2l.243-.243c.648-.648.733-1.67.2-2.416l-.324-.453a.798.798 0 01-.064-.796c.071-.157.137-.316.198-.478.1-.267.327-.47.608-.517l.55-.091a1.875 1.875 0 001.566-1.85v-.344c0-.916-.663-1.699-1.567-1.85l-.549-.091a.798.798 0 01-.608-.517 7.507 7.507 0 00-.198-.478.798.798 0 01.064-.796l.324-.453a1.875 1.875 0 00-.2-2.416l-.243-.243a1.875 1.875 0 00-2.416-.2l-.453.324a.798.798 0 01-.796.064 7.462 7.462 0 00-.478-.198.798.798 0 01-.517-.608l-.091-.55a1.875 1.875 0 00-1.85-1.566h-.344zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            <span class="sr-only">Services</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="brand">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z"
+                clip-rule="evenodd"
+              />
+              <path
+                d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z"
+              />
+            </svg>
+
+            <span class="sr-only">Team</span></a
+          >
+        </li>
+        <li><a href="#" class="brand">Patient Info</a></li>
+        <li><a href="#" class="brand">Well-being</a></li>
       </ul>
-      <form class="mb-0">
-        <label for="site-search">Search...</label>
-        <input type="search" id="site-search" name="search" aria-label="Search through site content" />
-        <button>Search</button>
+      <form class="searchbox flex items-center">
+        <label>
+          <span class="sr-only">Search Site</span>
+          <input
+            type="search"
+            id="site-search"
+            name="search"
+            placeholder="Search Site"
+            aria-label="Search through site content"
+          />
+        </label>
+        <button class="btn bg-primary">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span class="sr-only">Search</span>
+        </button>
       </form>
     </nav>
 
     <main class="container pb-12">
-      <blockquote class="alert info">
-        <h3 class="alert-title">COVID Restriction Update</h3>
-
-        <p>
-          Throughout the pandemic we have strove to make the surgery as safe as
-          possible for all our patients and staff, we will continue to do so.
-        </p>
-
-        <p>
-          From the
-          <strong
-            ><time datetime="2021-07-19">19th July 2021</time> nothing will
-            change at the Surgery</strong
-          >
-          Patients will <strong>still need</strong> to wear a mask, socially
-          distance and use hand sanitiser in the surgery and staff will continue
-          to wear PPE.
-        </p>
-
-        <p>
-          If you arrive without a mask and are not exempt, you will be asked to
-          leave.
-        </p>
-      </blockquote>
-
       <section class="relative">
-        <h1 class="display-2 opacity-5">
-          Welcome to the Tech Returners Surgery!
-        </h1>
-      
+        <h1 class="display-2 opacity-5">Welcome to the Tech Returners Surgery!</h1>
+
         <img src="./surgery.png" alt="A description of the image" />
-      
-        <address>
-          The Tech Returners Surgery,<br />
-          115 Mancunian Way,<br />
-          Manchester,<br />
-          M20 3PX
-        </address>
       </section>
 
       <section>
@@ -88,12 +146,7 @@
           <source src="#" type="video/webm" />
           <source src="#" type="video/mp4" />
 
-          <track
-            kind="captions"
-            srclang="en"
-            src="./ask_my_doc_transcript.vtt"
-            default
-          />
+          <track kind="captions" srclang="en" src="./ask_my_doc_transcript.vtt" default />
 
           Sorry, your browser doesn't support embedded videos.
         </video>
@@ -105,8 +158,8 @@
         <form>
           <fieldset>
             <legend>
-              Send us a message by filling out the form below and one of our
-              Receptionists will be in touch:
+              Send us a message by filling out the form below and one of our Receptionists will be
+              in touch:
             </legend>
 
             <p>Are you completing this form on behalf of:</p>
@@ -152,9 +205,65 @@
         </form>
       </section>
     </main>
-    <footer class="bg-white">
+    <footer class="footer">
       <a href="#">Tech Returners Surgery</a>
-      <a href="tel:03330509138">0333 050 9138</a>
+
+      <address>
+        The Tech Returners Surgery,<br />
+        115 Mancunian Way,<br />
+        Manchester,<br />
+        M20 3PX<br />
+        <a href="tel:03330509138">0333 050 9138</a>
+      </address>
     </footer>
+    <dialog id="dialog" class="dialog">
+      <blockquote class="alert fixed middle center info z-10">
+        <h3 class="alert-title">COVID Restriction Update</h3>
+        <button class="close absolute top right bg-dark text-light aspect-circle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <section class="flex gap flex-col">
+          <p class="text-dark">
+            Throughout the pandemic we have strove to make the surgery as safe as possible for all
+            our patients and staff, we will continue to do so.
+          </p>
+
+          <p class="text-dark">
+            From the
+            <strong
+              ><time datetime="2021-07-19">19th July 2021</time> nothing will change at the
+              Surgery</strong
+            >
+            Patients will <strong>still need</strong> to wear a mask, socially distance and use hand
+            sanitiser in the surgery and staff will continue to wear PPE.
+          </p>
+
+          <p class="text-danger font-bold uppercase">
+            If you arrive without a mask and are not exempt, you will be asked to leave.
+          </p>
+        </section>
+      </blockquote>
+    </dialog>
+    <!-- <script>
+      const dialog = document.querySelector("dialog");
+      const closeButton = document.querySelector("dialog button");
+      dialog.showModal();
+      document.body.style.overflowY = "hidden";
+      closeButton.addEventListener("click", () => {
+        dialog.close();
+        document.body.style.overflowY = "auto";
+      });
+    </script> -->
   </body>
 </html>

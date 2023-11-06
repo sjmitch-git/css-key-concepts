@@ -1,0 +1,17 @@
+.header {
+  background-color: var(--header-bg);
+  padding: var(--header-padding);
+  gap: var(--header-gap);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  & a {
+    text-decoration: none;
+  }
+
+  & a:first-child {
+    font-size: var(--header-font-size);
+  }
+}

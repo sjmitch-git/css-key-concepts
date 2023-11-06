@@ -1,0 +1,20 @@
+.searchbox {
+  background-color: var(--searchbox-bg);
+  padding: var(--searchbox-padding);
+  color: var(--searchbox-color);
+  flex-grow: 0;
+
+  & label {
+    flex-grow: 1;
+  }
+
+  & input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .searchbox {
+    flex-grow: 1;
+  }
+}

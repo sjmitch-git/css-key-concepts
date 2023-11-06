@@ -3,11 +3,18 @@
   padding: var(--alert-padding);
   margin: var(--alert-margin);
   border: var(--alert-border);
+  border-width: var(--alert-border-width);
   border-radius: var(--alert-radius);
   box-shadow: var(--box-shadow-md);
+  max-width: var(--alert-max-width);
+  width: 100%;
+
+  &.fixed {
+    max-width: 70ch;
+  }
 
   &.info {
-    background-color: var(--info-color-light);
+    color: var(--info-color-dark);
   }
   &.success {
     background-color: var(--success-color-light);
@@ -24,5 +31,11 @@
   }
   & p {
     max-width: 65ch;
+  }
+
+  .close {
+    margin-inline-end: -0.5em;
+    margin-block-start: -0.5em;
+    font-size: 2em;
   }
 }

@@ -1,0 +1,13 @@
+.navbar {
+  background-color: var(--navbar-bg);
+  padding: var(--navbar-padding);
+  gap: var(--navbar-gap);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* flex flex-wrap gap-xs pl-2 py-4 */

@@ -1,0 +1,5 @@
+.brand {
+  font-family: var(--brand-weight);
+  font-weight: var(--brand-weight);
+  font-variant: var(--brand-font-variant);
+}

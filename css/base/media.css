@@ -3,3 +3,21 @@ video {
   height: auto;
   margin-bottom: var(--spacing-8);
 }
+
+.icon {
+  width: 1em;
+  height: auto;
+  font-size: inherit;
+
+  &.lg {
+    width: 2em;
+  }
+
+  &.xl {
+    width: 3em;
+  }
+
+  &.xxl {
+    width: 4em;
+  }
+}

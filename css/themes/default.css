@@ -2,7 +2,7 @@
 
 /* COLOURS */
 :root {
-  --primary-color: var(--purple);
+  --primary-color: var(--light-orange);
   --secondary-color: var(--deep-purple);
   --tertiary-color: var(--light-purple);
 
@@ -77,7 +77,7 @@
 }
 
 /* BREAKPOINTSs -
-   TO DO: variables don't work in media queries! 
+   TO DO: variables don't work in media queries!
 */
 :root {
   --tablet: var(--sm-breakpoint);
@@ -103,11 +103,73 @@ body {
 }
 
 /* COMPONENTS */
+/* header */
+:root {
+  --header-bg: var(--white);
+  --header-padding: var(--spacing-4);
+  --header-gap: var(--spacing-4);
+  --header-weight: var(--font-weight-700);
+  --header-font-variant: var(--font-variant-small-caps);
+  --header-font-size: var(--heading-1-size);
+
+  @media (max-width: 640px) {
+    --header-font-size: var(--heading-3-size);
+  }
+
+  @media (max-width: 375px) {
+    --header-font-size: var(--heading-4-size);
+  }
+}
+
+/* navbar */
+:root {
+  --navbar-bg: var(--primary-color);
+  --navbar-padding: var(--spacing-00);
+  --navbar-gap: var(--spacing-4);
+
+  @media (max-width: 640px) {
+    --navbar-gap: var(--spacing-0);
+  }
+}
+
+/* menu */
+:root {
+  --menu-gap: var(--spacing-4);
+  --menu-padding: var(--spacing-4);
+
+  @media (max-width: 640px) {
+    --menu-gap: var(--spacing-2);
+    --menu-padding: var(--spacing-2);
+  }
+}
+
+/* brand */
+:root {
+  --brand-font: var(--sans-font);
+  --brand-weight: var(--font-weight-700);
+  --brand-font-variant: var(--font-variant-petite-caps);
+}
+
+/* alert */
 :root {
   --alert-bg: var(--lightest-grey);
   --alert-title: currentColor;
-  --alert-padding: var(--spacing-2) var(--spacing-4);
-  --alert-margin: var(--spacing-4) var(--spacing-12);
+  --alert-padding: var(--spacing-2) var(--spacing-4) var(--spacing-4);
+  --alert-margin: var(--spacing-4) auto;
   --alert-border: thin solid;
-  --alert-radius: 0.25em;
+  --alert-border-width: 0 0 0 0.5em;
+  --alert-radius: 0;
+  --alert-max-width: var(--md-breakpoint);
+}
+
+/* search box */
+:root {
+  --searchbox-bg: var(--shim-light-color);
+  --searchbox-color: var(--light-color);
+  --searchbox-padding: var(--spacing-2);
+}
+
+/* buttons */
+:root {
+  --btn-padding: var(--spacing-2);
 }

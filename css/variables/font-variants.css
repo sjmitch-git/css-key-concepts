@@ -1,0 +1,9 @@
+:root {
+  --font-variant-petite-caps: all-petite-caps;
+  --font-variant-small-caps: small-caps;
+  --font-variant-normal: normal;
+  --font-variant-italic: italic;
+  --font-variant-oblique: oblique;
+  --font-variant-initial: initial;
+  --font-variant-inherit: inherit;
+}

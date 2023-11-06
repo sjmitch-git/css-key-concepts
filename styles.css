@@ -8,26 +8,6 @@ html {
   font-variation-settings: normal;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-
-.brand {
-  font-variant: small-caps;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 ::selection {
   background: #f878ff;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  color: black;
-  border-top: thin solid;
 }

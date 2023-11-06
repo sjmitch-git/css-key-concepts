@@ -1,0 +1,15 @@
+.font-light {
+  font-weight: var(--font-weight-300);
+}
+
+.font-normal {
+  font-weight: var(--font-weight-500);
+}
+
+.font-bold {
+  font-weight: var(--font-weight-700);
+}
+
+.font-black {
+  font-weight: var(--font-weight-900);
+}

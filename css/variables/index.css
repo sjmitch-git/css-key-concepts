@@ -2,6 +2,8 @@
 @import "./breakpoints.css";
 @import "./colors.css";
 @import "./font-families.css";
+@import "./font-variants.css";
+@import "./font-weights.css";
 @import "./opacity.css";
 @import "./sizes.css";
 @import "./spacing.css";

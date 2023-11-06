@@ -1,3 +1,6 @@
 @import "./typography/colors.css";
+@import "./typography/brand.css";
+@import "./typography/text-case.css";
 @import "./typography/font-families.css";
+@import "./typography/font-weights.css";
 @import "./typography/headings.css";

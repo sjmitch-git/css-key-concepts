@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--menu-gap);
+  padding: var(--menu-padding);
+
+  @media (max-width: 640px) {
+    margin: auto;
+  }
+}
